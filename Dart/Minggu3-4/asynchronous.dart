@@ -8,7 +8,7 @@ Future<String> fetchUserOrder() =>
 // more complex and slow.
     Future.delayed(
       Duration(seconds: 2),
-      () => 'Large Latte',
+      () => 'Large Latte \n',
     );
 Future<void> main() async {
   print('Fetching user order...');
